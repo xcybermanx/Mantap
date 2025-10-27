@@ -2,7 +2,7 @@
 # Modified by SL
 
 # Download sshd_config from the given URL and overwrite local /etc/ssh/sshd_config
-wget -qO /etc/ssh/sshd_config https://raw.githubusercontent.com/fisabiliyusri/Mantap/main/sshd_config
+wget -qO /etc/ssh/sshd_config https://raw.githubusercontent.com/xcybermanx/Mantap/main/sshd_config
 
 # Restart sshd to apply new config
 systemctl restart sshd
